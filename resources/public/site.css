@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, svg {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+
+p {
+  padding-top: 10px;
+}
+
+body {
+  background-color: #EAEAFA
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.logo {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+.content {
+  margin: auto;
+  padding-top: 156px;
+  height: 4000px;
+  color: #555;
+  max-width: 800px;
+}
