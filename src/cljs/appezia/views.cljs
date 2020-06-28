@@ -87,7 +87,10 @@
       
       ]
      [:div.content ;{:style {:z-index 100}}
-      [:h1.logo "appezia"]
+      [:div.logo {:style {:text-align "center"}} 
+       [:img {:width 420
+              :src "logo.png"}]]
+      #_#_[:h1.logo "appezia"]
       [:h2.logo {:style {:position "relative"
                          :top -10
                          :left 86

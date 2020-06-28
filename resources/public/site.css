@@ -11,6 +11,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul, svg {
     margin: 0;
     padding: 0;
     font-weight: normal;
+    font-family: sans-serif;
   }
 
 p {
@@ -18,7 +19,8 @@ p {
 }
 
 body {
-  background-color: #EAEAFA
+  background-color: #27273a
+  
 }
 
 h1 {
@@ -28,12 +30,14 @@ h1 {
 .logo {
   font-family: 'Comfortaa', cursive;
   text-align: center;
+  padding-top: 170px;
+  padding-bottom: 60px;
 }
 
 .content {
   margin: auto;
   padding-top: 156px;
   height: 4000px;
-  color: #555;
+  color: #aaa;
   max-width: 800px;
 }
