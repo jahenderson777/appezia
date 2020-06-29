@@ -154,9 +154,12 @@
       [:h2 "We commit early, you commit late"]
       [:p "Only after we have demonstrated a prototype that satisfies the core functionality of your solution do we ask for your full commitment."]
       
-      [:h1 "Contact"]
-      [:h3 "Tel: 07912 097088"]
-      [:h3 "Email: jahenderson777@gmail.com"]
-      [:h3 "Address: Appezia, 6 Buckfast Rd, Buckfastleigh, Devon, TQ11 0EA"]
+     
       ]
+     [:div.footer
+      [:div.footer-inner
+       [:h1 "Contact"]
+       [:h3 "Tel: 07912 097088"]
+       [:h3 "Email: jahenderson777@gmail.com"]
+       [:h3 "Address: Appezia, 6 Buckfast Rd, Buckfastleigh, Devon, TQ11 0EA"]]]
      ]))
