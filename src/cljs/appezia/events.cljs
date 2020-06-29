@@ -72,6 +72,6 @@
  ::setup-scroll-listener
  (fn []
    {:window/on-scroll {:dispatch [::scroll]
-                       :debounce-ms 10
+                       :debounce-ms 5
                         ;; :id is optional
                        :id ::scroll-listener}}))

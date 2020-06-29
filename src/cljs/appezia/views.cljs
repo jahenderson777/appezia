@@ -90,9 +90,9 @@
 
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])
-        strip-height 70
+        strip-height 68
         strip-scale (scroll-mix 1.0 0.16 0 400)
-        logo-width (width-mix 280 420 320 420)]
+        logo-width (width-mix 280 420 320 820)]
     [:div ;{:style {:background-color (hsl 180 40 94)}}
      [:div {:style {:position "fixed"
                     :top 0
@@ -101,7 +101,7 @@
                     :width "100%"
                     :height "100%"}}
       [:div.logo {:style {:text-align "center"
-                          :top (scroll-mix 360 10 0 400)
+                          :top (scroll-mix 351 10 0 400)
                           }}
        [:img {:width logo-width
               :style {:margin-left (* logo-width 0.1)
@@ -123,7 +123,7 @@
         [trapezium-strip 180 40 97 strip-height (* 6 strip-height strip-scale)]]]
       
       ]
-     [:div.content {:style {:padding-top 530}}
+     [:div.content {:style {:padding-top 545}}
       
       #_#_[:h1.logo "appezia"]
         [:h2.logo {:style {:position "relative"
