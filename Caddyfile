@@ -1,0 +1,6 @@
+www.appezia.co.uk, appezia.co.uk {
+
+root * /opt/appezia/resources/public
+file_server
+encode zstd gzip
+}
