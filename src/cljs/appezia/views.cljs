@@ -132,7 +132,7 @@
                            :padding-bottom 200}}
          "technologies"]
       
-      [:div {:style {:background-color "#000"
+      #_[:div {:style {:background-color "#000"
                      :border "1px solid #ccc"
                      :padding 20}}
        [:h2 {:style {:padding-top 0}}
@@ -161,5 +161,5 @@
        [:h1 "Contact"]
        [:h3 "Tel: 07912 097088"]
        [:h3 "Email: jahenderson777@gmail.com"]
-       [:h3 "Address: Appezia, 6 Buckfast Rd, Buckfastleigh, Devon, TQ11 0EA"]]]
+       [:h3 "Address: Ashburton, Devon, UK"]]]
      ]))
